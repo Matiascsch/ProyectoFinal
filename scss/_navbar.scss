@@ -1,0 +1,32 @@
+// variables //
+
+$bodyBg: rgb(238, 238, 238);
+$headerBg: rgb(245, 198, 170);
+$sponsorsBg: rgb(244, 223, 208);
+$tituloFontSize: 200%;
+$navFontSize: 20px;
+
+
+// ---header y barra de nav--- //
+
+.header{
+	z-index: 99;
+	background-color: $headerBg;
+	align-items: baseline; 
+
+		nav{ 
+			align-items: baseline; 
+		}
+
+		.header__nav li>a{
+    		font-size: $navFontSize;
+            text-decoration: baseline;
+		}
+	
+		.header__titulo{
+			font-family: 'Bebas Neue', cursive;
+	    	font-size: $tituloFontSize;
+            text-decoration: uppercase;
+		}
+}
+

@@ -1,0 +1,46 @@
+// ---subtitulos--- //
+
+@mixin subtitulo(){
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-transform: capitalize;
+	text-align: center;
+}
+
+$etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__viajes, subtitulo__contacto;
+
+@each $subtitulo__x in $etiquetasSubt {
+	.#{$subtitulo__x}{
+		@include subtitulo();
+	}
+}
+
+.sponsors--color{
+	@include subtitulo();
+	background-color: $sponsorsBg;
+}
+
+
+// --- Contenido de Subtitulos --- //
+$noticias: pd__noticias, vivirEn__noticias, viajes__noticias, viajeros__noticias;
+
+@each $noticia in $noticias {
+	.#{$noticia}{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-size: 18px;
+		padding: 10px;
+	}
+}
+
+h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.container{ 
+	margin-bottom: 50px;
+}

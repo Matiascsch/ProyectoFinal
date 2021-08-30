@@ -1,0 +1,30 @@
+// imports //
+@import "navbar";
+@import "areas";
+@import "img"
+
+// variables //
+
+$bodyBg: rgb(238, 238, 238);
+$headerBg: rgb(245, 198, 170);
+$sponsorsBg: rgb(244, 223, 208);
+$tituloFontSize: 200%;
+$navFontSize: 20px;
+
+
+// ---Texto alineado--- //
+
+$aligns: justify, center, right, left;
+
+@each $align in $aligns{
+	.#{$align}{
+		text-align: $align;
+	}
+}
+
+
+// ---body--- //
+
+body{
+	background-color: $bodyBg;
+}

@@ -1,0 +1,104 @@
+.header {
+  z-index: 99;
+  background-color: #f5c6aa;
+  align-items: baseline; }
+  .header nav {
+    align-items: baseline; }
+  .header .header__nav li > a {
+    font-size: 20px;
+    text-decoration: baseline; }
+  .header .header__titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    text-decoration: uppercase; }
+
+.subtitulo__index {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.subtitulo__qs {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.subtitulo__vivirEn {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.subtitulo__viajes {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.subtitulo__contacto {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center; }
+
+.sponsors--color {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #f4dfd0; }
+
+.pd__noticias {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px; }
+
+.vivirEn__noticias {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px; }
+
+.viajes__noticias {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px; }
+
+.viajeros__noticias {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px; }
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px; }
+
+.container {
+  margin-bottom: 50px; }
+
+.justify {
+  text-align: justify; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+body {
+  background-color: #eeeeee; }
