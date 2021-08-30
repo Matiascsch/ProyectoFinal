@@ -1,14 +1,12 @@
 .header {
   z-index: 99;
-  background-color: #f5c6aa;
-  align-items: baseline; }
-  .header nav {
-    align-items: baseline; }
-  .header .header__nav li > a {
+  background-color: #f5c6aa; }
+  .header a {
     font-size: 20px;
-    text-decoration: baseline; }
+    text-decoration: none;
+    padding: 10px; }
   .header .header__titulo {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-size: 200%;
     text-decoration: uppercase; }
 
@@ -53,7 +51,7 @@
   font-size: 35px;
   text-transform: capitalize;
   text-align: center;
-  background-color: #f4dfd0; }
+  background-color: #2a9d8f; }
 
 .pd__noticias {
   font-family: 'Source Sans Pro', sans-serif;
@@ -85,6 +83,9 @@ h4 {
   font-weight: 700;
   font-size: 30px; }
 
+.subrayado {
+  text-decoration: underline; }
+
 .container {
   margin-bottom: 50px; }
 
@@ -101,4 +102,5 @@ h4 {
   text-align: left; }
 
 body {
+  overflow-x: hidden;
   background-color: #eeeeee; }

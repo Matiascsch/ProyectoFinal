@@ -32,46 +32,29 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css"> 
 </head>
 <body>
+
 <!-- Header y Barra de Nav -->
-	<div class="container-fluid">
-		<div class="row header sticky-top">
 
-			<div class="col-lg-12">
-				<nav class="navbar navbar-expand-lg navbar-light wow fadeInDown">
-				  <div class="container-fluid align-items-center justify-content-center">
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
+		<a class="navbar-brand header__titulo" href="../index.html">
+		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-top" alt="logo">
+		  NOMADS
+		</a>
 
-				  	<div class="col-lg-1 col-xs-2 right">
-						<img src="../assets/imagenes/logo.png" width="70" alt="LOGO">
-					</div>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-					<div class="col-lg-2">
-				    	<p class="header__titulo" href="#">NOMADS</p>
-				    </div>
-
-				    <div class="col-lg-9 col-xs-10 collapse navbar-collapse justify-content-end header__nav" id="navbarSupportedContent">
-				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="quienes-somos.html">Quienes Somos</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="#">Vivir En...</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="viajes.html">Viajes</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-				        </li>
-				      </ul>
-				    </div>
-
-				  </div>
-				</nav>
-			</div>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav ml-auto text-center">
+			<a class="nav-item nav-link" href="../index.html">Home</a>
+			<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+			<a class="nav-item nav-link active" href="vivir-en.html">Vivir En</a>
+			<a class="nav-item nav-link" href="viajes.html">Viajes</a>
+			<a class="nav-item nav-link" href="contacto.html">Contacto</a>
 		</div>
+		</div>
+	</nav>
 
 <!-- VIVIR EN... -->
 	<div class="row">
@@ -106,7 +89,7 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6  col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/suiza.jpg" width="500" height="180" href="https://www.unaargentinaensuiza.com/vivir-y-emigrar-a-suiza" alt="persona1">
+				<a href="https://www.unaargentinaensuiza.com/vivir-y-emigrar-a-suiza" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/suiza.jpg" width="500" height="180" alt="suiza"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En Suiza</h4>
@@ -117,7 +100,7 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/españa.jpg" width="500" height="180" href="https://www.yomeanimo.com/como-vivir-y-trabajar-en-espana-siendo-argentino" alt="persona1">
+				<a href="https://www.yomeanimo.com/como-vivir-y-trabajar-en-espana-siendo-argentino"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/españa.jpg" width="500" height="180" alt="españa"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En España</h4>
@@ -128,7 +111,7 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/berlin.jpg" width="500" height="180" href="https://www.yomeanimo.com/nacho-en-berlin-su-experiencia-con-la-working-holiday-alemania" alt="persona1">
+				<a href="https://www.yomeanimo.com/nacho-en-berlin-su-experiencia-con-la-working-holiday-alemania" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/berlin.jpg" width="500" height="180" alt="alemania"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En Alemania</h4>
@@ -148,34 +131,23 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
+				<a href="https://www.yomeanimo.com/vivir-y-trabajar-en-corea-la-experiencia-working-holiday-de-israel" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/corea.jpg" width="500" height="180" alt="corea"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
-				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
-			</div>
-		</div>
-
-		<div class="row vivirEn__noticias">
-			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
-			</div>
-			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
-				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
+				<h4 class="wow slideInRight">Vivir En Corea del Sur</h4>
+				<p class="wow slideInRight">Asi es Emigrar a Corea del Sur</p>
+				<p class="justify wow slideInRight">En esta ocasion traemos la historia de Israel, un Argentino de emigro a Corea del Sur y te cuenta su experiencia, por si queres Vivir en Corea.</p>
 			</div>
 		</div>
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
+				<a href="https://www.yomeanimo.com/working-holiday-japon-por-manu-y-virgi" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/japon.jpg" width="500" height="180" alt="japon"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
-				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
+				<h4 class="wow slideInRight">Vivir En Japon</h4>
+				<p class="wow slideInRight">Asi es Emigrar a Japon</p>
+				<p class="justify wow slideInRight">Conoce a estos dos Hermanos que emigraron a Japon, Manu y Virgi son Cordobeses y te explican como obtener la Visa Working Holiday Japon.</p>
 			</div>
 		</div>
 	</div>
@@ -190,7 +162,7 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/canada.jpg" href="https://growproexperience.com/canada/vivir-y-trabajar-en-canada/" width="500" height="180" alt="persona1">
+				<a href="https://growproexperience.com/canada/vivir-y-trabajar-en-canada/" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/canada.jpg" width="500" height="180" alt="canada"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En Canada</h4>
@@ -201,7 +173,7 @@
 
 		<div class="row vivirEn__noticias ">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/eeuu.jpg"  width="500" height="180" alt="persona1">
+				<a href="https://www.clarin.com/servicios/emigrar-unidos-requisitos-vivir-trabajar-pais-norte_0_GFuq0AOLL.html" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/eeuu.jpg"  width="500" height="180" alt="eeuu"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En Estados Unidos</h4>
@@ -212,12 +184,12 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/argentina.jpg" width="500" height="180" alt="persona1">
+				<a href="https://www.comovivirenargentina.com/" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/argentina.jpg" width="500" height="180" alt="argentina"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
 				<h4 class="wow slideInRight">Vivir En Argentina</h4>
 				<p class="wow slideInRight">Asi es Vivir En Argentina</p>
-				<p class="justify wow slideInRight">En este Blog te cuentan sobre la experiencia de Vivir en Latino-America, mas especifico en Argentina.</p>
+				<p class="justify wow slideInRight">En este Blog te cuentan sobre la experiencia de estudiar y emigrar a Latino-America, mas especifico en Argentina.</p>
 			</div>
 		</div>
 	</div>
@@ -232,34 +204,23 @@
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
+				<a href="https://growproexperience.com/nueva-zelanda/vivir-en-nueva-zelanda/" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/nueva-zelanda.jpeg" width="500" height="180" alt="persona1"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
-				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
-			</div>
-		</div>
-
-		<div class="row vivirEn__noticias">
-			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
-			</div>
-			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
-				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
+				<h4 class="wow slideInRight">Vivir En Nueva Zelanda</h4>
+				<p class="wow slideInRight">Asi es Emigrar a Nueva Zelanda</p>
+				<p class="justify wow slideInRight">En este Post te van a contar lo que es Emigrar a Nueva Zelanda segun la experiencia de Mildred, Por si te interesa Vivir en Nueva Zelanda.</p>
 			</div>
 		</div>
 
 		<div class="row vivirEn__noticias">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<img class="img-fluid wow slideInRight right" src="../assets/imagenes/persona.jpg" width="500" height="180" alt="persona1">
+				<a href="https://masoportunidades.org/como-es-vivir-en-australia-lo-que-no-te-han-contado/" target="blanck_"><img class="img-fluid wow slideInRight right" src="../assets/imagenes/australia.jpg" width="500" height="180" alt="persona1"></a>
 			</div>
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
-				<h4 class="wow slideInRight">Noticia</h4>
+				<h4 class="wow slideInRight">Vivir En Australia</h4>
 				<p class="wow slideInRight">Introduccion a la noticia</p>
-				<p class="justify wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quasi sit voluptates accusamus, eum ullam labore, rem earum? Reprehenderit, perferendis a iusto, voluptates ut optio numquam eum recusandae laboriosam hic.</p>
+				<p class="justify wow slideInRight">En este Post podras leer todo acerca de Emigrar a Australia, por si te interesa Vivir en Australia.</p>
 			</div>
 		</div>
 	</div>
@@ -299,7 +260,7 @@
 	<div class="col-lg-12 col-xs-12">
 		<footer class="bg-light text-center text-lg-start">
 		  <!-- Copyright -->
-		  <div class="text-center p-3" style="background-color: rgb(245, 198, 170);">
+		  <div class="text-center p-3" style="background-color: #74c69d;">
 		    © 2020 Copyright:
 		    <a class="text-dark" href="../index.html">Nomads.com</a>
 		  </div>
@@ -309,10 +270,10 @@
 </div>
 
 
-</div>
+
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 
 <!-- JavaScripts WoW.js -->
 <script src="../js/wow.min.js"></script>

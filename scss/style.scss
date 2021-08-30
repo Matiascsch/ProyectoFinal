@@ -1,7 +1,7 @@
 // imports //
 @import "navbar";
 @import "areas";
-@import "img"
+@import "img";
 
 // variables //
 
@@ -10,6 +10,9 @@ $headerBg: rgb(245, 198, 170);
 $sponsorsBg: rgb(244, 223, 208);
 $tituloFontSize: 200%;
 $navFontSize: 20px;
+$small: 575px;
+$medium: 768px;
+$big: 1200px;
 
 
 // ---Texto alineado--- //
@@ -26,5 +29,6 @@ $aligns: justify, center, right, left;
 // ---body--- //
 
 body{
+	overflow-x: hidden;
 	background-color: $bodyBg;
 }
