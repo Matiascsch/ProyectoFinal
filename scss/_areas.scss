@@ -19,6 +19,9 @@ $etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__
 .sponsors--color{
 	@include subtitulo();
 	background-color: $sponsorsBg;
+		a{
+			color: black;
+		}
 }
 
 
@@ -40,6 +43,7 @@ h4{
 	font-weight: 700;
 	font-size: 30px;
 }
+
 .subrayado{text-decoration: underline;}
 
 .container{ 
