@@ -16,6 +16,10 @@ $etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__
 	}
 }
 
+.footer--color{
+	background-color: #74c69d;
+}
+
 .sponsors--color{
 	@include subtitulo();
 	background-color: $sponsorsBg;
@@ -26,10 +30,17 @@ $etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__
 
 
 // --- Contenido de Subtitulos --- //
+@mixin imgHover {
+	img:hover{
+		filter: brightness(0.3);
+	}
+}
+
 $noticias: pd__noticias, vivirEn__noticias, viajes__noticias, viajeros__noticias;
 
 @each $noticia in $noticias {
 	.#{$noticia}{
+		@include imgHover();
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		font-size: 18px;

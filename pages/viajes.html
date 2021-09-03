@@ -35,9 +35,11 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css"> 
 </head>
 <body>
-
+	
+<div class="container-body">
 <!-- Header y Barra de Nav -->
-
+<div class="row">
+	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
 		<a class="navbar-brand header__titulo" href="../index.html">
 		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-top" alt="logo">
@@ -49,15 +51,24 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav ml-auto text-center">
-			<a class="nav-item nav-link" href="../index.html">Home</a>
-			<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
-			<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
-			<a class="nav-item nav-link active" href="viajes.html">Viajes</a>
-			<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+			<div class="navbar-nav ml-auto text-center">
+				<a class="nav-item nav-link" href="../index.html">Home</a>
+				<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+				<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
+				<a class="nav-item nav-link active" href="viajes.html">Viajes</a>
+				<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+			</div>
 		</div>
-		</div>
+
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="ml-auto text-center">
+				<a href="contacto.html"><i class="fas fa-bell notifProf"></i></a>
+				<a href="contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
+			</div>
+		</div>	
 	</nav>
+	</div>
+</div>
 
 <!--  VIAJES -->
 	<div class="row">
@@ -66,15 +77,39 @@
 		</div>
 	</div>
 
-	<div class="container">
 		<!-- Arma tu viaje -->
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 subtitulo__viajes">
-				<h3>Arma tu viaje</h3>  
+				<h3 class="subrayado">Arma tu viaje</h3>  
 			</div>
 		</div>
 
+		<div class="row rounded footer--color align-items-center justify-content-evenly center">
+			<div class="col-lg-3 col-xs-3 col-md-3 col-sm-12 wow slideInRight">
+				<a href="https://www.airbnb.com.ar/" target="blanck_"><img class="rounded" src="../assets/imagenes/airbnb.png" width="50%" height="100" alt="airbnb"></a>
+				<h4 class="wow slideInRight">Averigua por Hospedajes aqui</h4>		
+			</div>
+	
+			<div class="col-lg-3 col-xs-3 col-md-3 col-sm-12 wow slideInRight">
+				<a href="https://www.despegar.com.ar/" target="blanck_"><img class="rounded" src="../assets/imagenes/despegar.png" width="50%" height="100" alt="despegar"></a>	
+				<h4 class="wow slideInRight">Compra tus Pasajes Aqui.</h4>
+			</div>
+	
+			<div class="col-lg-3 col-xs-3 col-md-3 col-sm-12 wow slideInRight">
+				<a href="https://www.visa.com.ar/viaja-con-visa/viajes.html" target="blanck_"><img class="rounded" src="../assets/imagenes/visa.png" width="50%" height="100" alt="american-express"></a>
+				<h4 class="wow slideInRight">Saca tu Targeta Visa Aqui</h4>		
+			</div>
+	
+			<div class="col-lg-3 col-xs-3 col-md-3 col-sm-12 wow slideInRight">
+				<a href="https://www.trivago.com.ar/" target="blanck_"><img class="rounded" src="../assets/imagenes/trivago.png" width="50%" height="100" alt="trivago"></a>	
+				<h4 class="wow slideInRight">Arma tu Paquete Aqui.</h4>
+			</div>
+		</div>
+	</div>
+
 		<!-- Articulos de nuestros viajeros -->
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 subtitulo__viajes">
 				<h3>Articulos de nuestros viajeros</h3>
@@ -86,90 +121,92 @@
 				</form>
 			  </div>
 		</div>
-		
+	</div>
+
+<div class="container">
 		<!-- Lo mas importante -->
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 subtitulo__viajes left">
-				<h4>Lo mas importante</h4>
+				<h4 class="wow fadeInDown subrayado">Lo mas importante</h4>
 			</div>
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=96eDjU21GnE" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/nueva-york.png" width="100%" height="180" alt="new york"></a>
-			  	  <h5>20 lugares que tenes que visitar en Nueva York.</h5>
+			  	  <h5 class="wow fadeIn">20 lugares que tenes que visitar en Nueva York.</h5>
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=iI6zLJ9DJIk" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/japon.jpg" width="100%" height="180" alt="japon"></a>
-				  <h5>5 Cosas Imperdibles De Japon.</h5>
+				  <h5 class="wow fadeIn">5 Cosas Imperdibles De Japon.</h5>
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a herf="https://www.youtube.com/watch?v=r1lqRWqwg10" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/bora-bora.jpg" width="100%" height="180" alt="persona1"></a>
-				  <h5>Polinesia Bora-Bora VIP<h5>
+				  <h5 class="wow fadeIn">Polinesia Bora-Bora VIP<h5>
 			</div>
 		</div>
 
 		<!-- Turismo aventura -->
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 subtitulo__viajes left">
-				<h4>Turismo aventura</h4>
+				<h4 class="wow fadeInDown subrayado">Turismo aventura</h4>
 			</div>
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=RoaF7KBee7E" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/nueva-zelanda.jpeg" width="100%" height="180" alt="new zeland"></a>
-				  <h5>QUEENSTOWN</h5>
+				  <h5 class="wow fadeIn">QUEENSTOWN</h5>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=vCIuNk6wHaI" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/universal.jpg" width="100%" height="180" alt="universal"></a>
-				  <h5>UNIVERSAL STUDIOS</h5> 
+				  <h5 class="wow fadeIn">UNIVERSAL STUDIOS</h5> 
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.felicesvacaciones.es/blog/los-mejores-lugares-para-hacer-turismo-de-aventura" target="blanck_"><img class="wow slideInRight right rounded" src="../assets/imagenes/not-tips.jpg" width="100%" height="180" alt="aventura"></a>
-				  <h5>Los mejores destinos para hacer Turismo aventura</h5>
+				  <h5 class="wow fadeIn">Los mejores destinos para hacer Turismo aventura</h5>
 			</div>
 		</div>
 
 		<!-- Ciudades -->
 		<div class="row">
 			<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12 subtitulo__viajes left">
-				<h4>Ciudades</h4>
+				<h4 class="wow fadeInDown subrayado">Ciudades</h4>
 			</div>
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=tRXOrsul_t8" target="blanck_"><img class="wow slideInRight right rounded" src="../assets/imagenes/paris-not.jpg" width="100%" height="180" alt="paris"></a>
-				  <h5>Paris, La ciudad del Amor</h5>
+				  <h5 class="wow fadeIn">Paris, La ciudad del Amor</h5>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=DvZ__Z3IHWk" target="blanck_"></a><img class="wow slideInRight right rounded" src="../assets/imagenes/nueva-york.png" width="100%" height="180" alt="nueva-york"></a>
-				<h5>La ciudad Mas linda</h5>
+				  <h5 class="wow fadeIn">La ciudad Mas linda</h5>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=EUEujSP1MRA" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/argentina.jpg" width="100%" height="180" alt="argentina"></a>
-				  <h5>Buenos Aires, Argentina</h5>
+				  <h5 class="wow fadeIn">Buenos Aires, Argentina</h5>
 			</div>
 		</div>
 
 		<!-- para los mas chicos -->
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 subtitulo__viajes left">
-				<h4>para los mas chicos</h4>
+				<h4 class="wow fadeInDown subrayado">para los mas chicos</h4>
 			</div>
 			
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=d1jYUWJvrmo" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/disney.jpg" width="100%" height="180" alt="disney"></a>
-				  <h5>DISNEY</h5>
+				  <h5 class="wow fadeIn">DISNEY</h5>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a herf="https://www.etapainfantil.com/vacaciones-ninos-mundo" target="blanck_"><img class="wow slideInRight right rounded" src="../assets/imagenes/familia.jpg" width="100%" height="180" alt="persona1"></a>
-				  <h5>Destinos Para La Familia</h5>
+				  <h5 class="wow fadeIn">Destinos Para La Familia</h5>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 align-items-center justify-content-evenly viajes__noticias">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center align-items-center justify-content-evenly viajes__noticias">
 				<a href="https://www.youtube.com/watch?v=34awyPkfzcU" target="blanck_"><img class=" wow slideInRight right rounded" src="../assets/imagenes/paris.jpg" width="100%" height="180" alt="paris"></a>
-				  <h5>DISNEY Paris</h5>
+				  <h5 class="wow fadeIn">DISNEY Paris</h5>
 			</div>
 		</div>
-	</div>
 
+</div>	
 	<!-- Footer -->
 <div class="row">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -185,6 +222,7 @@
 </div>
 
 
+</div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>

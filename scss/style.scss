@@ -27,6 +27,17 @@ $aligns: justify, center, right, left;
 
 
 // ---body--- //
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@mixin container-body{
+	width: 100%;
+}
+.container-body{
+	@include container-body();
+}
 
 body{
 	overflow-x: hidden;

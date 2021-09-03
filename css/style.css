@@ -1,6 +1,6 @@
 .header {
   z-index: 99;
-  background-color: #f5c6aa; }
+  background-color: #343a40; }
   .header a {
     font-size: 17px;
     text-decoration: none;
@@ -9,6 +9,12 @@
     font-family: 'Bebas Neue';
     font-size: 200%;
     text-decoration: uppercase; }
+
+.notifProf {
+  color: white;
+  font-size: 20px;
+  width: 20px;
+  height: 20px; }
 
 .subtitulo__index {
   padding: 30px;
@@ -45,6 +51,9 @@
   text-transform: capitalize;
   text-align: center; }
 
+.footer--color {
+  background-color: #74c69d; }
+
 .sponsors--color {
   padding: 30px;
   margin-bottom: 30px;
@@ -60,24 +69,32 @@
   font-weight: 300;
   font-size: 18px;
   padding: 10px; }
+  .pd__noticias img:hover {
+    filter: brightness(0.3); }
 
 .vivirEn__noticias {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
   padding: 10px; }
+  .vivirEn__noticias img:hover {
+    filter: brightness(0.3); }
 
 .viajes__noticias {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
   padding: 10px; }
+  .viajes__noticias img:hover {
+    filter: brightness(0.3); }
 
 .viajeros__noticias {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
   padding: 10px; }
+  .viajeros__noticias img:hover {
+    filter: brightness(0.3); }
 
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -136,6 +153,13 @@ h4 {
 
 .left {
   text-align: left; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.container-body {
+  width: 100%; }
 
 body {
   overflow-x: hidden;

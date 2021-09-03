@@ -35,9 +35,11 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css"> 
 </head>
 <body>
-
+	
+<div class="container-body">
 <!-- Header y Barra de Nav -->
-
+<div class="row">
+	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
 		<a class="navbar-brand header__titulo" href="../index.html">
 		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-top" alt="logo">
@@ -49,16 +51,24 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav ml-auto text-center">
-			<a class="nav-item nav-link" href="../index.html">Home</a>
-			<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
-			<a class="nav-item nav-link active" href="vivir-en.html">Vivir En</a>
-			<a class="nav-item nav-link" href="viajes.html">Viajes</a>
-			<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+			<div class="navbar-nav ml-auto text-center">
+				<a class="nav-item nav-link" href="../index.html">Home</a>
+				<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+				<a class="nav-item nav-link active" href="vivir-en.html">Vivir En</a>
+				<a class="nav-item nav-link" href="viajes.html">Viajes</a>
+				<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+			</div>
 		</div>
-		</div>
-	</nav>
 
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="ml-auto text-center">
+				<a href="contacto.html"><i class="fas fa-bell notifProf"></i></a>
+				<a href="contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
+			</div>
+		</div>	
+	</nav>
+	</div>
+</div>
 <!-- VIVIR EN... -->
 	<div class="row">
 		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
@@ -86,7 +96,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-				<h3 class="wow bounceIn subtitulo__qs">Vivir En Europa</h3>
+				<h3 class="wow bounceIn subrayado subtitulo__qs">Vivir En Europa</h3>
 			</div>
 		</div>
 
@@ -128,7 +138,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12">
-				<h3 class="wow bounceIn subtitulo__qs">Vivir En Asia</h3>
+				<h3 class="wow bounceIn subrayado subtitulo__qs">Vivir En Asia</h3>
 			</div>
 		</div>
 
@@ -159,7 +169,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12">
-				<h3 class="wow bounceIn subtitulo__qs">Vivir En America</h3>
+				<h3 class="wow bounceIn subrayado subtitulo__qs">Vivir En America</h3>
 			</div>
 		</div>
 
@@ -201,7 +211,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 col-sm-12">
-				<h3 class="wow bounceIn subtitulo__vivirEn">Vivir En Oceania</h3>
+				<h3 class="wow bounceIn subrayado subtitulo__vivirEn">Vivir En Oceania</h3>
 			</div>
 		</div>
 
@@ -273,7 +283,7 @@
 </div>
 
 
-
+</div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>

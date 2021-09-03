@@ -35,9 +35,11 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css"> 
 </head>
 <body>
-
+	
+<div class="container-body">
 	<!-- Header y Barra de Nav -->
-
+<div class="row">
+	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
 		<a class="navbar-brand header__titulo" href="../index.html">
 		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-top" alt="logo">
@@ -49,21 +51,74 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav ml-auto text-center">
-			<a class="nav-item nav-link" href="../index.html">Home</a>
-			<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
-			<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
-			<a class="nav-item nav-link" href="viajes.html">Viajes</a>
-			<a class="nav-item nav-link active" href="contacto.html">Contacto</a>
+			<div class="navbar-nav ml-auto text-center">
+				<a class="nav-item nav-link" href="../index.html">Home</a>
+				<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+				<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
+				<a class="nav-item nav-link" href="viajes.html">Viajes</a>
+				<a class="nav-item nav-link active" href="contacto.html">Contacto</a>
+			</div>
 		</div>
-		</div>
-	</nav>
 
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="ml-auto text-center">
+				<a href="#"><i class="fas fa-bell notifProf"></i></a>
+				<a href="#"><i class="fas fa-user-circle notifProf"></i></a>
+			</div>
+		</div>	
+	</nav>
+	</div>
+</div>
 <!-- CONTACTO -->
+<div class="row">
+	<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+		<h3 class="wow bounceIn subtitulo__contacto">Contacto</h3>
+	</div>
+</div>
+
+<!-- Registrate -->
+<div class="container">	
+	<div class="row">
+		<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+			<h3 class="wow bounceIn subtitulo__contacto">Registrate y Postulate para ser un Viajero</h3>
+		</div>
+	</div>
+
+	<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 center wow slideInRight">
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
+			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+		</div>
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Tu Apellido</label>
+			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+		</div>
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo@gmail.com">
+		</div>
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@Ejemplo">
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+			<label class="form-check-label" for="flexCheckDefault">
+			Recordame
+			</label>
+		</div>
+		<div class="col-12">
+			<button class="btn btn-primary" type="submit">Crear Cuenta</button>
+		</div>
+	</div>	
+
+</div>
+
+<!-- consultas -->
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-			<h3 class="wow bounceIn subtitulo__contacto">Contacto</h3>
+			<h4 class="wow bounceIn center">Dejanos tu consulta y Te contactamos</h4>
 		</div>
 	</div>
 
@@ -74,29 +129,27 @@
 
 		<div class="col-lg-5 col-xs-12 col-md-12 col-sm-12 wow slideInRight">
 			<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+				<label for="exampleFormControlInput1" class="form-label">Tu Nombre de Usuario</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="@Nombre">
 			</div>
 			<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Tu Apellido</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-			</div>
-			<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo@gmail.com">
-			</div>
-			<div class="mb-3">
-			<label for="exampleFormControlTextarea1" class="form-label">Tu Consulta</label>
-			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				<label for="exampleFormControlTextarea1" class="form-label">Tu Consulta</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
 			</div>	
 			<div class="form-check">
-			<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-			<label class="form-check-label" for="flexCheckDefault">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+				<label class="form-check-label" for="flexCheckDefault">
 				Quiero recibir mas Infomacion
-			</label>
+				</label>
 			</div>
 			<div class="col-12">
 				<button class="btn btn-primary" type="submit">ENVIAR</button>
+			</div>
+			<br>
+			<div class="mb-3">
+				<p>Ubicacion: Aeropuerto Internacional Ezeiza / Terminal 2</p>
+				<p>Telefono: 4432-2313 / (11)2341-1234</p>
+				<p>E-Mail: Nomads@gmail.com</p>
 			</div>
 		</div>		
 	</div>
@@ -117,6 +170,7 @@
 	</div>
 </div>
 
+</div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
