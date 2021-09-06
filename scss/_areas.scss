@@ -32,7 +32,7 @@ $etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__
 // --- Contenido de Subtitulos --- //
 @mixin imgHover {
 	img:hover{
-		filter: brightness(0.3);
+		filter: brightness(0.5);
 	}
 }
 
