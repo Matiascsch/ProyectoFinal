@@ -12,6 +12,8 @@ $navFontSize: 17px;
 .header{
 	z-index: 99;
 	background-color: $headerBg;
+	position: sticky;
+	top: 0;
 
 		a{
     		font-size: $navFontSize;

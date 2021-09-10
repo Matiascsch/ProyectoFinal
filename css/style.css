@@ -1,6 +1,8 @@
 .header {
   z-index: 99;
-  background-color: #343a40; }
+  background-color: #343a40;
+  position: sticky;
+  top: 0; }
   .header a {
     font-size: 17px;
     text-decoration: none;
@@ -70,7 +72,7 @@
   font-size: 18px;
   padding: 10px; }
   .pd__noticias img:hover {
-    filter: brightness(0.3); }
+    filter: brightness(0.5); }
 
 .vivirEn__noticias {
   font-family: 'Source Sans Pro', sans-serif;
@@ -78,7 +80,7 @@
   font-size: 18px;
   padding: 10px; }
   .vivirEn__noticias img:hover {
-    filter: brightness(0.3); }
+    filter: brightness(0.5); }
 
 .viajes__noticias {
   font-family: 'Source Sans Pro', sans-serif;
@@ -86,7 +88,7 @@
   font-size: 18px;
   padding: 10px; }
   .viajes__noticias img:hover {
-    filter: brightness(0.3); }
+    filter: brightness(0.5); }
 
 .viajeros__noticias {
   font-family: 'Source Sans Pro', sans-serif;
@@ -94,7 +96,7 @@
   font-size: 18px;
   padding: 10px; }
   .viajeros__noticias img:hover {
-    filter: brightness(0.3); }
+    filter: brightness(0.5); }
 
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
