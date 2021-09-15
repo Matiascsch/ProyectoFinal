@@ -34,42 +34,51 @@
 	
 <div class="container-body">
 <!-- Header y Barra de Nav -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
-		<a class="navbar-brand header__titulo" href="../index.html">
-		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
-		  NOMADS
-		</a>
+<div class="container-fluid">
+	<header class="row">
+		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+		<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header header--margin">
+			<a class="navbar-brand header__titulo" href="../index.html">
+			  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
+			  NOMADS
+			</a>
 
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav ml-auto text-center">
-				<a class="nav-item nav-link" href="../index.html">Home</a>
-				<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
-				<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
-				<a class="nav-item nav-link active" href="viajes.html">Viajes</a>
-				<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ml-auto text-center">
+					<a class="nav-item nav-link" href="../index.html">Home</a>
+					<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+					<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
+					<a class="nav-item nav-link active" href="viajes.html">Viajes</a>
+					<a class="nav-item nav-link" href="contacto.html">Contacto</a>
+				</div>
 			</div>
+
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="ml-auto text-center">
+					<a href="contacto.html"><i class="fas fa-bell notifProf"></i></a>
+					<a href="contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
+				</div>
+			</div>	
+		</nav>
 		</div>
-
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="ml-auto text-center">
-				<a href="contacto.html"><i class="fas fa-bell notifProf"></i></a>
-				<a href="contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
-			</div>
-		</div>	
-	</nav>
-	</div>
+	</header>
 </div>
 
+
 <!--  VIAJES -->
-	<div class="row">
-		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-			<h3 class="wow bounceIn subtitulo__viajes">Viajes</h3>
+		<!-- Articulos de nuestros viajeros -->
+	<div class="container">
+		<div class="row">
+			<div class="container-fluid">
+				<form class="d-flex">
+				  <input class="form-control me-2" type="search" placeholder="Busca un Destino que te Interese" aria-label="Search">
+				  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+				</form>
+			  </div>
 		</div>
 	</div>
 
@@ -82,7 +91,7 @@
 		</div>
 	</div>
 
-	<div class="container footer--color justify-content-center">
+	<div class="container rounded viajes--color justify-content-center">
 		<div class="row rounded align-items-center justify-content-evenly center">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow slideInRight">
 				<a href="https://www.airbnb.com.ar/" target="blanck_"><img class="rounded" src="../assets/imagenes/airbnb.png" width="50%" height="100" alt="airbnb"></a>
@@ -94,7 +103,7 @@
 				<h4 class="wow slideInRight">Compra tus Pasajes Aqui.</h4>
 			</div>
 		</div>
-
+	<br>
 		<div class="row rounded align-items-center justify-content-evenly center">
 			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow slideInRight">
 				<a href="https://www.visa.com.ar/viaja-con-visa/viajes.html" target="blanck_"><img class="rounded" src="../assets/imagenes/visa.png" width="50%" height="100" alt="american-express"></a>
@@ -105,21 +114,6 @@
 				<a href="https://www.trivago.com.ar/" target="blanck_"><img class="rounded" src="../assets/imagenes/trivago.png" width="50%" height="100" alt="trivago"></a>	
 				<h4 class="wow slideInRight">Arma tu Paquete Aqui.</h4>
 			</div>
-		</div>
-	</div>
-
-		<!-- Articulos de nuestros viajeros -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 subtitulo__viajes">
-				<h3>Articulos de nuestros viajeros</h3>
-			</div>
-			<div class="container-fluid">
-				<form class="d-flex">
-				  <input class="form-control me-2" type="search" placeholder="Busca un Destino que te Interese" aria-label="Search">
-				  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-				</form>
-			  </div>
 		</div>
 	</div>
 
@@ -208,20 +202,26 @@
 
 </div>	
 	<!-- Footer -->
-<div class="row">
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<footer class="bg-light text-center text-lg-start">
-		  <!-- Copyright -->
-		  <div class="text-center p-3" style="background-color: #74c69d;">
-		    © 2020 Copyright:
-		    <a class="text-dark" href="../index.html">Nomads.com</a>
-		  </div>
-		  <!-- Copyright -->
-		</footer>
-	</div>
+<div class="container-fluid footer--color">
+	<footer>
+		<div class="footer-contenedor">
+			<h3>NOMADS</h3>
+			<ul class="footer__redes">
+				<li><a target="blanck_" href="https://es-la.facebook.com/enespanol/"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+				<li><a target="blanck_" href="https://www.instagram.com/?hl=es" class="instagram"><i class="fab fa-instagram"></i></a></li>
+				<li><a target="blanck_" href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p>Sitio Oficial de Nomads | Todos los derechos reservados</p>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2021 Nomads. Designed By <span>Matias Carballo Schatz</span></p>
+		</div>
+	</footer>
 </div>
 
-
+<!-- cierre body -->
 </div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

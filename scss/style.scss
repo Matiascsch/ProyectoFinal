@@ -34,8 +34,14 @@ $aligns: justify, center, right, left;
 
 @mixin container-body{
 	width: 100%;
+	padding: 0;
+	margin: 0; 
 }
 .container-body{
+	@include container-body();
+}
+
+.container-fluid{
 	@include container-body();
 }
 

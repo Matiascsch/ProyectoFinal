@@ -34,77 +34,81 @@
 	
 <div class="container-body">
 	<!-- Header y Barra de Nav -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
-		<a class="navbar-brand header__titulo" href="../index.html">
-		  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
-		  NOMADS
-		</a>
+<div class="container-fluid">
+	<header class="row">
+		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+		<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header header--margin">
+			<a class="navbar-brand header__titulo" href="../index.html">
+			  <img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
+			  NOMADS
+			</a>
 
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav ml-auto text-center">
-				<a class="nav-item nav-link" href="../index.html">Home</a>
-				<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
-				<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
-				<a class="nav-item nav-link" href="viajes.html">Viajes</a>
-				<a class="nav-item nav-link active" href="contacto.html">Contacto</a>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ml-auto text-center">
+					<a class="nav-item nav-link" href="../index.html">Home</a>
+					<a class="nav-item nav-link" href="quienes-somos.html">Quienes Somos</a>
+					<a class="nav-item nav-link" href="vivir-en.html">Vivir En</a>
+					<a class="nav-item nav-link" href="viajes.html">Viajes</a>
+					<a class="nav-item nav-link active" href="contacto.html">Contacto</a>
+				</div>
 			</div>
+
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="ml-auto text-center">
+					<a href="#"><i class="fas fa-bell notifProf"></i></a>
+					<a href="#"><i class="fas fa-user-circle notifProf"></i></a>
+				</div>
+			</div>	
+		</nav>
 		</div>
+	</header>
+</div>
 
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="ml-auto text-center">
-				<a href="#"><i class="fas fa-bell notifProf"></i></a>
-				<a href="#"><i class="fas fa-user-circle notifProf"></i></a>
-			</div>
-		</div>	
-	</nav>
-	</div>
-</div>
 <!-- CONTACTO -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-		<h3 class="wow bounceIn subtitulo__contacto">Contacto</h3>
-	</div>
-</div>
 
 <!-- Registrate -->
 <div class="container">	
 	<div class="row">
 		<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-			<h3 class="wow bounceIn subtitulo__contacto">Registrate y Postulate para ser un Viajero</h3>
+			<h3 class="wow bounceIn subtitulo__contacto center">Registrate y Postulate para ser un Viajero</h3>
 		</div>
 	</div>
 
-	<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 wow slideInRight">
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-		</div>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Tu Apellido</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-		</div>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo@gmail.com">
-		</div>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@Ejemplo">
-		</div>
-		<div class="form-check">
-			<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-			<label class="form-check-label" for="flexCheckDefault">
-			Recordame
-			</label>
-		</div>
-		<div class="col-12">
-			<button class="btn btn-primary" type="submit">Crear Cuenta</button>
+	<div class="row">
+		<div class="col-lg-7 col-md-7 col-xs-12 col-sm-12">
+				<img src="../assets/imagenes/viaje.jpg" class="wow fadeInLeft rounded" width="100%" height="500"alt="viaje concurso">
+			</div>
+
+		<div class="col-lg-5 col-xs-12 col-md-5 col-sm-12 wow slideInRight">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Tu Apellido</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo@gmail.com">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@Ejemplo">
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+				<label class="form-check-label" for="flexCheckDefault">
+				Recordame
+				</label>
+			</div>
+			<div class="col-12">
+				<button class="btn btn-primary" type="submit">Crear Cuenta</button>
+			</div>
 		</div>
 	</div>	
 
@@ -114,16 +118,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-			<h4 class="wow bounceIn center">Dejanos tu consulta y Te contactamos</h4>
+			<h4 class="wow bounceIn subtitulo__contacto center">Dejanos tu consulta y Te contactamos</h4>
 		</div>
 	</div>
 
 	<div class="row justify-content-center">
-		<div class="col-lg-7 col-xs-12 col-md-12 col-sm-12 wow slideInLeft">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5508.939601787884!2d-58.53561786234837!3d-34.81512154370212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf19b6f81d441cc3b!2sAeropuerto%20Internacional%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1628719477763!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-		</div>
-
-		<div class="col-lg-5 col-xs-12 col-md-12 col-sm-12 wow slideInRight">
+		<div class="col-lg-5 col-xs-12 col-md-12 col-sm-12 wow slideInLeft">
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Tu Nombre de Usuario</label>
 				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="@Nombre">
@@ -143,29 +143,40 @@
 			</div>
 			<br>
 			<div class="mb-3">
-				<p>Ubicacion: Aeropuerto Internacional Ezeiza / Terminal 2</p>
-				<p>Telefono: 4432-2313 / (11)2341-1234</p>
-				<p>E-Mail: Nomads@gmail.com</p>
+				<p><i class="fas fa-map-pin"></i>Ubicacion: Aeropuerto Internacional Ezeiza / Terminal 2</p>
+				<p><i class="fas fa-phone-alt"></i>Telefono: 4432-2313 / (11)2341-1234</p>
+				<p><i class="fas fa-envelope"></i>E-Mail: Nomads@gmail.com</p>
 			</div>
-		</div>		
+		</div>	
+
+		<div class="col-lg-7 col-xs-12 col-md-12 col-sm-12 wow slideInRight">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5508.939601787884!2d-58.53561786234837!3d-34.81512154370212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf19b6f81d441cc3b!2sAeropuerto%20Internacional%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1628719477763!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>	
 	</div>
 </div>
 
 
 	<!-- Footer -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-		<footer class="bg-light text-center text-lg-start">
-		  <!-- Copyright -->
-		  <div class="text-center p-3" style="background-color: #74c69d;">
-		    © 2020 Copyright:
-		    <a class="text-dark" href="../index.html">Nomads.com</a>
-		  </div>
-		  <!-- Copyright -->
-		</footer>
-	</div>
+<div class="container-fluid footer--color">
+	<footer>
+		<div class="footer-contenedor">
+			<h3>NOMADS</h3>
+			<ul class="footer__redes">
+				<li><a target="blanck_" href="https://es-la.facebook.com/enespanol/"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+				<li><a target="blanck_" href="https://www.instagram.com/?hl=es" class="instagram"><i class="fab fa-instagram"></i></a></li>
+				<li><a target="blanck_" href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p>Sitio Oficial de Nomads | Todos los derechos reservados</p>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2021 Nomads. Designed By <span>Matias Carballo Schatz</span></p>
+		</div>
+	</footer>
 </div>
 
+<!-- cierre body -->
 </div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

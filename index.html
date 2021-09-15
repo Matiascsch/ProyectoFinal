@@ -34,106 +34,109 @@
 <body>
 
 <div class="container-body">
+
 <!-- Header y Barra de Nav -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-		<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
-			<a class="navbar-brand header__titulo" href="index.html">
-			<img src="assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
-			NOMADS
-			</a>
+<div class="container-fluid">
+	<header class="row">
+		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+			<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
+				<a class="navbar-brand header__titulo" href="index.html">
+				<img src="assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
+				NOMADS
+				</a>
 
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav ml-auto text-center">
-					<a class="nav-item nav-link active" href="index.html">Home</a>
-					<a class="nav-item nav-link" href="pages/quienes-somos.html">Quienes Somos</a>
-					<a class="nav-item nav-link" href="pages/vivir-en.html">Vivir En</a>
-					<a class="nav-item nav-link" href="pages/viajes.html">Viajes</a>
-					<a class="nav-item nav-link" href="pages/contacto.html">Contacto</a>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto text-center">
+						<a class="nav-item nav-link active" href="index.html">Home</a>
+						<a class="nav-item nav-link" href="pages/quienes-somos.html">Quienes Somos</a>
+						<a class="nav-item nav-link" href="pages/vivir-en.html">Vivir En</a>
+						<a class="nav-item nav-link" href="pages/viajes.html">Viajes</a>
+						<a class="nav-item nav-link" href="pages/contacto.html">Contacto</a>
+					</div>
 				</div>
-			</div>
 
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="ml-auto text-center">
-					<a href="pages/contacto.html"><i class="fas fa-bell notifProf"></i></a>
-					<a href="pages/contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
-				</div>
-			</div>	
-		</nav>
-	</div>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="ml-auto text-center">
+						<a href="pages/contacto.html"><i class="fas fa-bell notifProf"></i></a>
+						<a href="pages/contacto.html"><i class="fas fa-user-circle notifProf"></i></a>
+					</div>
+				</div>	
+			</nav>
+		</div>
+	</header>
 </div>
-	
+
 <!-- Carousel -->
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-				<div class="carousel-item active">
-					<a href="https://www.youtube.com/watch?v=X_GYeKOVruY" target="_blanck"><img src="assets/imagenes/zurich.jpg" height="450" class="d-block w-100" alt="zurich"></a>
-				</div>
-			    <div class="carousel-item">
-			      <a href="https://www.youtube.com/watch?v=tPS5d5yiGxc" target="_blanck"><img src="assets/imagenes/paris.jpg" height="450" class="d-block w-100" alt="paris"></a>
-			    </div>
-			    <div class="carousel-item">
-			      <a href="https://www.youtube.com/watch?v=r1lqRWqwg10" target="_blanck">
-			      	<img src="assets/imagenes/bora-bora.jpg" height="450" class="d-block w-100" alt="bora-bora">
-			      </a>
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
+<div class="container-fluid" id="carousel">
+	<div id="carouselIndex" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+		<div class="carousel-item active">
+			<a href="https://www.youtube.com/watch?v=tPS5d5yiGxc" target="_blanck">
+				<img class="d-block" src="assets/imagenes/paris.jpg" width="100%" height="950px" alt="First slide">
+			</a>
+		</div>
+		<div class="carousel-item">
+			<a href="https://www.youtube.com/watch?v=r1lqRWqwg10" target="_blanck">
+				<img class="d-block" src="assets/imagenes/bora-bora.jpg" width="100%" height="950px" alt="Second slide">
+			</a>
+		</div>
+		<div class="carousel-item">
+			<a href="https://www.youtube.com/watch?v=X_GYeKOVruY" target="_blanck">
+				<img class="d-block" src="assets/imagenes/zurich1.jpg" width="100%" height="950px" alt="Third slide">
+			</a>
+		</div>
 		</div>
 	</div>
+</div>
 
 <!--  POST DESTACADOS -->
-<div class="container">
+<main class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h3 class="wow bounceIn subtitulo__index">Post Destacados</h3>
+			</div>
+		</div>
+			
+		<div class="row align-top justify-content-evenly pd__noticias">
+			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
+				<a href="https://alanxelmundo.com/la-patagonia-enamora/" target="blanck_">
+					<img class=" rounded" src="assets/imagenes/patagonia.jpeg" width="100%" height="300" alt="patagonia">
+				</a>
+				<h4 class="wow slideInRight">La Patagonia Enamora</h4>
+				<p class="wow slideInRight">Una Experiencia en la Patagonia Argentina.</p>		
+			</div>
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3 class="wow bounceIn subtitulo__index">Post Destacados</h3>
-		</div>
-	</div>
-		
-	<div class="row align-top justify-content-evenly pd__noticias">
-		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
-			<a href="https://alanxelmundo.com/la-patagonia-enamora/" target="blanck_"><img class=" rounded" src="assets/imagenes/patagonia.jpeg" width="100%" height="300" alt="patagonia"></a>
-			<h4 class="wow slideInRight">La Patagonia Enamora</h4>
-			<p class="wow slideInRight">Una Experiencia en la Patagonia Argentina.</p>		
+			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
+				<a href="https://alanxelmundo.com/curiosidades-de-paris/" target="blanck_">
+					<img class=" rounded" src="assets/imagenes/paris-not.jpg" width="100%" height="300" alt="paris">
+				</a>	
+				<h4 class="wow slideInRight">Curiosidades de Paris</h4>
+				<p class="wow slideInRight">Te enseñamos algunas cualidades que talvez no conocias sobre Paris.</p>
+			</div>
 		</div>
 
-		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
-			<a href="https://alanxelmundo.com/curiosidades-de-paris/" target="blanck_"><img class=" rounded" src="assets/imagenes/paris-not.jpg" width="100%" height="300" alt="paris"></a>	
-			<h4 class="wow slideInRight">Curiosidades de Paris</h4>
-			<p class="wow slideInRight">Te enseñamos algunas cualidades que talvez no conocias sobre Paris.</p>
+		<div class="row align-top justify-content-evenly pd__noticias">
+			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
+				<a href="https://www.unaargentinaensuiza.com/post/10-lugares-imprescindibles-en-zurich" target="blanck_">
+					<img class=" rounded" src="assets/imagenes/zurich.jpg" width="100%" height="300" alt="zurich">
+				</a>	
+				<h4 class="wow slideInRight">10 Lugares Impresionantes en Zurich</h4>
+				<p class="wow slideInRight">Mica Te enseña 10 lugares que tenes que ir si visitas Zurich.</p>	
+			</div>
+			
+			<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
+				<a href="https://alanxelmundo.com/15-tips-de-viaje-para-principiantes/" target="blanck_">
+					<img class=" rounded" src="assets/imagenes/not-tips.jpg" width="100%" height="300" alt="avion">
+				</a>
+				<h4 class="wow slideInRight">15 Tips de Viajes</h4>
+				<p class="wow slideInRight">Si acabas de iniciarte en los viajes y no sabes armar ni tu maleta, este post te será de mucha ayuda.</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="row align-top justify-content-evenly pd__noticias">
-		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
-			<a href="https://www.unaargentinaensuiza.com/post/10-lugares-imprescindibles-en-zurich" target="blanck_"><img class=" rounded" src="assets/imagenes/zurich.jpg" width="100%" height="300" alt="zurich"></a>	
-			<h4 class="wow slideInRight">10 Lugares Impresionantes en Zurich</h4>
-			<p class="wow slideInRight">Mica Te enseña 10 lugares que tenes que ir si visitas Zurich.</p>	
-		</div>
-		
-		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-12 wow fadeIn">
-			<a href="https://alanxelmundo.com/15-tips-de-viaje-para-principiantes/" target="blanck_"><img class=" rounded" src="assets/imagenes/not-tips.jpg" width="100%" height="300" alt="avion"></a>
-			<h4 class="wow slideInRight">15 Tips de Viajes</h4>
-			<p class="wow slideInRight">Si acabas de iniciarte en los viajes y no sabes armar ni tu maleta, este post te será de mucha ayuda.</p>
-		</div>
-	</div>
-
-</div>
+</main>
 
 <!-- QUIENES SOMOS -->
 <div class="container">
@@ -144,11 +147,11 @@
 	</div>
 	
 	<div class="row">
-		<div class="col-lg-7 col-md-7 col-xs-12 col-sm-12 wow slideInLeft">
-			<img class=" rounded" src="assets/imagenes/senderista.jpeg" width="100%" height="250" alt="senderista">
+		<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 wow slideInLeft">
+			<img class="right rounded" src="assets/imagenes/senderista.jpeg" width="100%" height="250" alt="senderista">
 		</div>
 
-		<div class="col-lg-5 col-md-5 col-xs-12 col-sm-12 wow slideInRight">
+		<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 wow slideInRight">
 			<p>Somos una Red de Divulgacion de turismo y emigraciones, que busca dar a luz el espiritu aventurero de cada persona, ademas de brindarte toda la informacion posible para tus planes turisticos.</p>
 		</div>
 	</div>
@@ -170,7 +173,7 @@
 	<div class="row vivirEn__noticias">
 		<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 right">
 			<h4 class="wow slideInRight">Vivir en Suiza</h4>
-			<p class="wow slideInRight">Asi se Emigra a Suiza</p>
+			<p class="wow slideInRight"><strong>Asi se Emigra a Suiza</strong></p>
 			<p class="justify wow slideInRight">Mica es una Argentina que emigro a Suiza y te cuenta su experiencia por si te interesa Vivir En Suiza.</p>
 		</div>
 		<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
@@ -181,7 +184,7 @@
 	<div class="row vivirEn__noticias">
 		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6 right">
 			<h4 class="wow slideInRight">Vivir En Canada</h4>
-			<p class="wow slideInRight">Asi se Emigra a Canada</p>
+			<p class="wow slideInRight"><strong>Asi se Emigra a Canada</strong></p>
 			<p class="justify wow slideInRight">En este Blog te Explicamos como es emigrar a Canada, Por si te interesa Vivir En Canada.</p>
 		</div>
 		<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 ">
@@ -192,8 +195,8 @@
 	<div class="row vivirEn__noticias">
 		<div class="col-lg-6 col-xs-6 col-md-6 col-sm-6 right">
 			<h4 class="wow slideInRight">Vivir En España</h4>
-			<p class="wow slideInRight">Asi se Emigra a España</p>
-			<p class="justify wow slideInRight">En este Post ses explica como es conseguir trabajo y como emigrar a España, por si te interesa Vivir En España.</p>
+			<p class="wow slideInRight"><strong>Asi se Emigra a España</strong></p>
+			<p class="justify wow slideInRight">En este Post se explica como es conseguir trabajo y como emigrar a España, por si te interesa Vivir En España.</p>
 		</div>
 		<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 ">
 			<a href="https://www.yomeanimo.com/como-vivir-y-trabajar-en-espana-siendo-argentino" target="blanck_"><img class="wow slideInRight right rounded" src="assets/imagenes/espana.jpg" width="100%" height="250" alt="espania"></a>
@@ -209,71 +212,50 @@
 	
 
 <!-- NUESTROS VIAJEROS -->
+<div class="container-fluid">
 <div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 sponsors--color">
-		<h3 class="wow slideInLeft subtitulo__index"><a href="pages/quienes-somos.html" class="index__viajeros">Conoce a Nuestros Viajeros Haciendo Click Aqui.</a></h3>
+	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sponsors--color">
+		<h3 class="wow slideInLeft"><a href="pages/quienes-somos.html" class="index__viajeros">Conoce a Nuestros Viajeros Haciendo Click Aqui.</a></h3>
 	</div>
 </div>
+</div>
 
-<!-- CONTACTO -->
-<div class="container ">
+<!-- concurso -->
+<div class="container">
 	<div class="row">
-		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-			<h3 class="wow bounceIn subtitulo__index">Contacto</h3>
+		<div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+			<img src="assets/imagenes/not-tips.jpg" width="100%" height="300" alt="imgSorteo">
 		</div>
-	</div>
-
-	<div class="row justify-content-center">
-		<div class="col-lg-7 col-md-7 col-xs-12 col-sm-12 wow slideInLeft">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5508.939601787884!2d-58.53561786234837!3d-34.81512154370212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf19b6f81d441cc3b!2sAeropuerto%20Internacional%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1628719477763!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+			<h3 class="subtitulo__index"><a href="pages/contacto.html">Inscribite y participa para ser parte de Nosotros</a></h3>
+			<p><strong>Crea tu cuenta</strong> en la Seccion de Contacto y participa directamente en nuestro sorteo par ver quien sera nuestro nuevo integrante Viajero, Podrias vivir tu sueño de viajar por el mundo.</p>
 		</div>
-
-		<div class="col-lg-5 col-md-5 col-xs-12 col-sm-12 wow slideInRight">
-			<div class="mb-3">
-			  <label for="exampleFormControlInput1" class="form-label">Tu Nombre</label>
-			  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-			</div>
-			<div class="mb-3">
-			  <label for="exampleFormControlInput1" class="form-label">Tu Apellido</label>
-			  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-			</div>
-			<div class="mb-3">
-			  <label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
-			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo@gmail.com">
-			</div>
-			<div class="mb-3">
-			  <label for="exampleFormControlTextarea1" class="form-label">Tu Consulta</label>
-			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			</div>	
-			<div class="form-check">
-			<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-			<label class="form-check-label" for="flexCheckDefault">
-				Quiero recibir mas Infomacion
-			</label>
-			</div>
-			<div class="col-12">
-				<button class="btn btn-primary" type="submit">ENVIAR</button>
-			</div>
-		</div>		
 	</div>
 </div>	
 
 <!-- Footer -->
-<div class="row">
-	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<footer class="bg-light text-center text-lg-start">
-		  <!-- Copyright -->
-		  <div class="text-center p-3" style="background-color: #74c69d;">
-		    © 2020 Copyright:
-		    <a class="text-dark" href="index.html">Nomads.com</a>
-		  </div>
-		  <!-- Copyright -->
-		</footer>
-	</div>
+<div class="container-fluid footer--color">
+	<footer>
+		<div class="footer-contenedor">
+			<h3>NOMADS</h3>
+			<ul class="footer__redes">
+				<li><a target="blanck_" href="https://es-la.facebook.com/enespanol/"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+				<li><a target="blanck_" href="https://www.instagram.com/?hl=es" class="instagram"><i class="fab fa-instagram"></i></a></li>
+				<li><a target="blanck_" href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p>Sitio Oficial de Nomads | Todos los derechos reservados</p>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2021 Nomads. Designed By <span>Matias Carballo Schatz</span></p>
+		</div>
+	</footer>
 </div>
 
 <!-- Fin Footer -->
 
+</div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

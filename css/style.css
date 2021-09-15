@@ -18,50 +18,62 @@
   width: 20px;
   height: 20px; }
 
+.header--margin {
+  margin-bottom: 20px; }
+
+a {
+  color: black; }
+
 .subtitulo__index {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 35px;
-  text-transform: capitalize;
-  text-align: center; }
-
-.subtitulo__qs {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 35px;
-  text-transform: capitalize;
-  text-align: center; }
-
-.subtitulo__vivirEn {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 35px;
-  text-transform: capitalize;
-  text-align: center; }
-
-.subtitulo__viajes {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 35px;
-  text-transform: capitalize;
-  text-align: center; }
-
-.subtitulo__contacto {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 35px;
-  text-transform: capitalize;
-  text-align: center; }
-
-.footer--color {
-  background-color: #74c69d; }
-
-.sponsors--color {
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 30px;
   font-size: 35px;
   text-transform: capitalize;
   text-align: center;
+  text-decoration: underline; }
+
+.subtitulo__qs {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline; }
+
+.subtitulo__vivirEn {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline; }
+
+.subtitulo__viajes {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline; }
+
+.subtitulo__contacto {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline; }
+
+.viajes--color {
+  background-color: lightgrey; }
+
+.sponsors--color {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
   background-color: #2a9d8f; }
   .sponsors--color a {
     color: black; }
@@ -110,6 +122,106 @@ h4 {
 .container {
   margin-bottom: 50px; }
 
+.carousel-contenedor {
+  width: 100%;
+  height: 150px; }
+
+#appSlider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 20px; }
+  #appSlider img {
+    padding: 0;
+    width: 100px;
+    height: 100px; }
+
+.footer--color {
+  background-color: #434343; }
+
+footer {
+  height: auto;
+  width: 100%;
+  font-family: "Source Sans Pro";
+  padding-top: 40px;
+  color: #fff; }
+
+.footer-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .footer-contenedor h3 {
+    font-family: 'Bebas Neue';
+    color: #2a9d8f;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem; }
+  .footer-contenedor p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px; }
+
+.footer__redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0; }
+  .footer__redes li {
+    width: 50px;
+    height: 50px;
+    margin: 10px; }
+    .footer__redes li a {
+      display: block;
+      padding: 5px;
+      background: black;
+      color: white;
+      line-height: 40px;
+      font-size: 18px;
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 50%; }
+    .footer__redes li a:hover i {
+      color: #2a9d8f; }
+
+.footer-bottom {
+  background: #2a9d8f;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center; }
+  .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+  .footer-bottom span {
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200; }
+
+@media (max-width: 576px) {
+  #carousel img {
+    height: 500px; } }
+
+@media (max-width: 768px) {
+  .carousel-contenedor {
+    width: 100%;
+    height: 150px; }
+  #appSlider {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px; }
+    #appSlider img {
+      text-align: center;
+      padding: 0;
+      width: 25%;
+      height: 50%; } }
+
 .viajeros--redes {
   display: flex;
   align-items: center;
@@ -132,6 +244,7 @@ h4 {
   .viajeros--redes ul:hover a {
     filter: blur(2px); }
   .viajeros--redes ul li a:hover {
+    border-radius: 50%;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     filter: none; }
@@ -161,7 +274,14 @@ h4 {
   margin: 0; }
 
 .container-body {
-  width: 100%; }
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
 
 body {
   overflow-x: hidden;

@@ -34,13 +34,14 @@
 	
 <div class="container-body">
 <!-- Header y Barra de Nav -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-		<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header">
-			<a class="navbar-brand header__titulo" href="../index.html">
-			<img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
-		NOMADS
-			</a>
+<div class="container-fluid">
+	<header class="row">
+		<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+			<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top header header--margin">
+				<a class="navbar-brand header__titulo" href="../index.html">
+					<img src="../assets/imagenes/logo.png" width="60" class="d-inline-block align-items-center" alt="logo">
+					NOMADS
+				</a>
 
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -63,23 +64,18 @@
 				</div>
 			</div>	
 		</nav>
-	</div>
+	</header>
 </div>
 
 	<!-- QUIENES SOMOS -->
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h3 class="wow fadeInDown subtitulo__qs">¿Quienes Somos?</h3>
-			</div>
-		</div>
-	
 		<div class="row justify-content-around">
 			<div class="col-lg-6 col-sm-12 col-xs-12 col-md-6">
-				<img class="rounded wow fadeInDown" src="../assets/imagenes/senderista.jpeg" width="100%" height="250" alt="persona1">	
+				<img class="rounded wow fadeInDown" src="../assets/imagenes/senderista.jpeg" width="100%" height="250" alt="senderista">
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<p class="wow fadeInRight">Somos una Red de Divulgacion de turismo y emigraciones, que busca dar a luz el espiritu aventurero de cada persona, ademas de brindarte toda la informacion posible para tus planes turisticos.</p>
+				<h3 class="wow fadeInDown subtitulo__qs left">¿Quienes Somos?</h3>
+				<p class="wow fadeInRight"><strong>Somos una Red de Divulgacion de turismo y emigraciones</strong>, que busca dar a luz el espiritu aventurero de cada persona, ademas de brindarte toda la informacion posible para tus planes turisticos.</p>
 			</div>
 		</div>
 	</div>
@@ -87,27 +83,25 @@
 	<!-- Mision y Vision -->
 	<div class="container">
 		<div class="row wow slideInLeft">
-			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+			<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 				<h4 class="subrayado">Mision</h4>
-			</div>
-			<div class="col-lg-6 col-md-12 col-xs-6 col-sm-6">
 				<p class="justify">Nomads es una Red que conecta a los distintos viajeros del mundo y sus experiencias viajeras, ademas de consejos de viajes.</p>
-			</div>
-		</div>
-		<div class="row wow slideInRight justify-content-end">
-			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 right">
-				<h4 class="subrayado">Vision</h4>
-			</div>
-			<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+			<br>	
+				<h4 class="subrayado right">Vision</h4>
 				<p class="justify">Nuestra Vision es Lograr ampliar nuestro mercado virtual para ser una empresa relacionada al Turismo, llevando el sentimiento de la aventura y la motivacion de recorrer el mundo a todos.</p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+				<img class="rounded" src="../assets/imagenes/vision.jpg" width="90%" height="300px" alt="vision">
 			</div>
 		</div>
 	</div>
 
 	<!-- Viajeros  -->
-<div class="row">
-	<div class="col-lg-12 col-xs-12 col-sm-12 sponsors--color">
-		<h3 class="wow slideInLeft subtitulo__index">Conoce a Nuestros Viajeros</h3>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12 col-xs-12 col-sm-12 sponsors--color">
+			<h3 class="wow slideInLeft subtitulo__index">Conoce a Nuestros Viajeros</h3>
+		</div>
 	</div>
 </div>
 
@@ -197,19 +191,26 @@
 </div>
 
 <!-- Footer -->
-	<div class="row">
-		<div class="col-lg-12 col-xs-12 col-sm-12">
-			<footer class="bg-light text-center text-lg-start">
-			  <!-- Copyright -->
-			  <div class="text-center p-3" style="background-color: #74c69d;">
-			    © 2020 Copyright:
-			    <a class="text-dark" href="../index.html">Nomads.com</a>
-			  </div>
-			  <!-- Copyright -->
-			</footer>
+<div class="container-fluid footer--color">
+	<footer>
+		<div class="footer-contenedor">
+			<h3>NOMADS</h3>
+			<ul class="footer__redes">
+				<li><a target="blanck_" href="https://es-la.facebook.com/enespanol/"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+				<li><a target="blanck_" href="https://www.instagram.com/?hl=es" class="instagram"><i class="fab fa-instagram"></i></a></li>
+				<li><a target="blanck_" href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a target="blanck_" href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p>Sitio Oficial de Nomads | Todos los derechos reservados</p>
 		</div>
-	</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2021 Nomads. Designed By <span>Matias Carballo Schatz</span></p>
+		</div>
+	</footer>
+</div>
 
+<!-- cierre body -->
 </div>
 <!-- Opcion 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
