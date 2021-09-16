@@ -122,21 +122,6 @@ h4 {
 .container {
   margin-bottom: 50px; }
 
-.carousel-contenedor {
-  width: 100%;
-  height: 150px; }
-
-#appSlider {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 70%;
-  margin-bottom: 20px; }
-  #appSlider img {
-    padding: 0;
-    width: 100px;
-    height: 100px; }
-
 .footer--color {
   background-color: #434343; }
 
@@ -205,22 +190,6 @@ footer {
 @media (max-width: 576px) {
   #carousel img {
     height: 500px; } }
-
-@media (max-width: 768px) {
-  .carousel-contenedor {
-    width: 100%;
-    height: 150px; }
-  #appSlider {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 70%;
-    margin-bottom: 20px; }
-    #appSlider img {
-      text-align: center;
-      padding: 0;
-      width: 25%;
-      height: 50%; } }
 
 .viajeros--redes {
   display: flex;
