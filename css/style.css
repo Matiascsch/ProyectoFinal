@@ -22,7 +22,9 @@
   margin-bottom: 20px; }
 
 a {
-  color: black; }
+  color: black;
+  text-decoration: none;
+  text-style: none; }
 
 .subtitulo__index {
   padding: 20px;
@@ -122,7 +124,11 @@ h4 {
 .container {
   margin-bottom: 50px; }
 
+.concurso--color {
+  background-color: #a8e7e9; }
+
 .footer--color {
+  padding: 10px;
   background-color: #434343; }
 
 footer {

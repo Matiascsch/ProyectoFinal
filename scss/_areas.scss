@@ -4,6 +4,7 @@ $letraFooter: 'Source Sans Pro';
 $colorFooter: #434343;
 $colorIconosFooter: black;
 $colorFooterBottom: #2a9d8f;
+$concursoColor: #a8e7e9;
 
 // ---subtitulos--- //
 
@@ -15,9 +16,13 @@ $colorFooterBottom: #2a9d8f;
 	text-align: center;
 	text-decoration: underline;
 }
+
 a{
 	color: black;
+	text-decoration: none;
+	text-style: none;
 }
+
 $etiquetasSubt: subtitulo__index, subtitulo__qs, subtitulo__vivirEn, subtitulo__viajes, subtitulo__contacto;
 
 @each $subtitulo__x in $etiquetasSubt {
@@ -71,8 +76,14 @@ h4{
 	margin-bottom: 50px;
 }
 
+//concurso 
+.concurso--color{
+	background-color: $concursoColor;
+}
+
 // footer
 .footer--color{
+	padding: 10px;
 	background-color: $colorFooter;
 }
 footer{
